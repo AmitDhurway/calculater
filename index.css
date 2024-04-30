@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-image: url('https://media.istockphoto.com/id/1310488699/photo/abstract-technological-background-in-vibrant-colors-with-blur.jpg?s=2048x2048&w=is&k=20&c=ngxvtriMoshDyLH1sMBCAHIBBUUaPh-jkTKrR9dfKo8=');
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#Main
+{
+    height: 500px;
+    width: 300px;
+    margin-top: 100px;
+    background-color: #103c4f;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 8px rgb(126, 61, 108);
+    
+}
+
+.Result
+{
+    background-image: url('https://media.istockphoto.com/id/1319613142/vector/abstract-blue-arrow-glowing-with-lighting-and-line-grid-on-blue-background-technology-hi.jpg?s=2048x2048&w=is&k=20&c=8GgdWK4YZ39z4G6-KB46H2iAXar8ZCqsC64cWG3s-Tg=');
+      background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(241, 92, 159);
+    color:white;
+    text-align: right;
+    padding-right: 20px;
+    overflow: auto;
+    
+}
+
+#History
+{
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+
+}
+
+#Answer
+{
+    position: relative;
+    top: 90px;
+    font-size: 50px;
+}
+
+.NumPad
+{    background-image: url('https://media.istockphoto.com/id/1147229526/vector/man-wearing-virtual-reality-headset-abstract-vr-world-with-neon-lines.jpg?s=2048x2048&w=is&k=20&c=c624cb9SkM-6Pr22cpZ8fEFDeIlLA-3C314GSM8yH1o=');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn-1
+{
+    background-color: #16210c;
+    color: white;
+}
+
+.btn-2
+{
+    background-color: #d915dc;
+    color: white;
+}
+
+.btn:active
+{
+    background-color: #5dbdee;
+    
+}
